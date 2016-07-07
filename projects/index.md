@@ -1,7 +1,7 @@
 ---
 layout: project
-title: All Projects
+title: Projects are coming soon...!
 excerpt: "A List of Projects"
 comments: false
 ---
-Hi Hello My 1st project
+
