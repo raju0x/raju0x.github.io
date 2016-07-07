@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Post with Image Feature"
+title: "HTTP:Basics Part 1"
 date: 2016-07-07
 excerpt: "A ton of text to test readability with image feature."
 #tags: [sample post, readability, test, image, feature]
