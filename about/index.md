@@ -6,4 +6,4 @@ date: 2016-03-21
 comments: false
 ---
     
-Open Hackz is an Open Source Community mainly focus at Info Sec,you will find blog post,projects related security.
+OpenHackz is an Open Source Community mainly focus at Information Security,and to promote Security Research,Education.
