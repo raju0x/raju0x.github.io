@@ -1,7 +1,7 @@
 # Site
-title:              Welcome to Open Hackz
-bio:                'Hello,my name is Kiran Kumar,iam a Security Analyst,Pentester,Researcher.'
-description:        "Open Hackz is an Open Source Community mainly focus at Info Sec,you will find blog post,projects related security."
+title:              Welcome to OpenHackz
+bio:                'Hello,my name is Kiran Kumar,iam a Security Analyst,web application Pentester.'
+description:        "OpenHackz is an Open Source Community mainly focus at Information Security,and to promote Security Research,Education."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.jpg'
