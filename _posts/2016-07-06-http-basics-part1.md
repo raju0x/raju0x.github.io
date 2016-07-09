@@ -9,7 +9,7 @@ published: true
 ---
 Hello friends ,everyone know about HTTP right but still Iam writing this post because of you should know in detail about communication protocols,it helps while doing web application hacking or any hacking related stuff.Ok then here you go….
 First,what is **_protocol_**. a protocol  is a standard used to define a method of exchanging data over a computer network such as local area network,Internet, Intranet, etc.
-## _Below are some familiar protocols listed:_
+## _Below are some familiar protocols listed:_ ##
 **_AppleTalk:_**AppleTalk is a proprietary networking protocol used with Apple Macintosh computers and networking devices to communicate with each other.
 **_ARP:_** Short for Address Resolution Protocol, ARP is a used with the IP for mapping a 32-bit Internet Protocol address to a MAC address that is recognized in the local network.
 **_BGP:_** Short for Border Gateway Protocol, BGP is a network protocol operating on port 179 for exchanging routing information between gateway hosts.
