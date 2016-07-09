@@ -7,7 +7,7 @@ feature: 'http://www.vpnanswers.com/wp-content/uploads/2015/05/http.jpg'
 comments: true
 published: true
 ---
-	Hello friends ,everyone know about HTTP right but still Iam writing this post because of you should know in detail about communication protocols,it helps while doing web application hacking or any hacking related stuff.Ok then here you go….
+Hello friends ,everyone know about HTTP right but still Iam writing this post because of you should know in detail about communication protocols,it helps while doing web application hacking or any hacking related stuff.Ok then here you go….
 First,what is **_protocol_**. a protocol  is a standard used to define a method of exchanging data over a computer network such as local area network,Internet, Intranet, etc.
 ## _Below are some familiar protocols listed:_
 **_AppleTalk:_**AppleTalk is a proprietary networking protocol used with Apple Macintosh computers and networking devices to communicate with each other.
