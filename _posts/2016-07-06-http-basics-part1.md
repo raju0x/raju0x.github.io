@@ -12,7 +12,6 @@ published: true
 ### First,what is protocol.a protocol is a standard used to define a method of exchanging data over a computer network such as local area network,Internet,Intranet,etc.   
 
 # Below are some familiar protocols listed:
-
 ## AppleTalk:
 AppleTalk is a proprietary networking protocol used with Apple Macintosh         computers and networking devices to communicate with each other.
 
