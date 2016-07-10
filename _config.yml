@@ -1,13 +1,12 @@
 # Site
 title:              Welcome to OpenHackz
-bio:                'Hello,my name is Kiran Kumar,iam a Security Analyst,web application Pentester.
-                                 "Stay like ethical think like unethical hacker."'
+bio:                'Hello,my name is Kiran Kumar,iam a Security Analyst,web application Pentester.'
 description:        "OpenHackz is an Open Source Community mainly focus at Information Security,and to promote Security Research,Education."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.jpg'
 background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+tiled_bg:           true   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://openhackz.in
 
