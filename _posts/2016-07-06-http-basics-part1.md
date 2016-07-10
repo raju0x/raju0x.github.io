@@ -10,6 +10,7 @@ published: true
 Hello friends ,everyone know about HTTP right but still Iam writing this post because of you should know in detail about communication protocols,it helps while doing web application hacking or any hacking related stuff.Ok then here you go…
 
 First,what is protocol.a protocol is a standard used to define a method of exchanging data over a computer network such as local area network,Internet,Intranet,etc.   
+
 ## Below are some familiar protocols listed:
 
 ### AppleTalk:
