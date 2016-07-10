@@ -12,8 +12,9 @@ published: true
 ### First,what is protocol.a protocol is a standard used to define a method of exchanging data over a computer network such as local area network,Internet,Intranet,etc.   
 
 # Below are some familiar protocols listed:
+
 ## AppleTalk:
-AppleTalk is a proprietary networking protocol used with Apple Macintosh         computers and networking devices to communicate with each other.
+### AppleTalk is a proprietary networking protocol used with Apple Macintosh         computers and networking devices to communicate with each other.
 
 ## ARP:
 Short for Address Resolution Protocol, ARP is a used with the IP for mapping a 32-bit Internet Protocol address to a MAC address that is recognized in the local network.
