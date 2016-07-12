@@ -1,8 +1,10 @@
 ---
 layout: post
 title: 'HTTP:Basics Part 1'
-date: 2016-07-06
-excerpt: The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems.
+date: {}
+excerpt: >-
+  The Hypertext Transfer Protocol (HTTP) is an application protocol for
+  distributed, collaborative, hypermedia information systems.
 feature: 'http://www.vpnanswers.com/wp-content/uploads/2015/05/http.jpg'
 comments: true
 published: true
@@ -90,6 +92,8 @@ Alternatively referred to as IP telephone orInternet phone,VoIP is short for�
 
 ### So iam not going to explain all the above protocols because our topic is http.
 
+## HTTP:
+
 HTTP(hyper text transport protocol)is the underlying protocol used by the World Wide Web.HTTP defines how messages are formatted and transmitted,and what actions Web servers and browsers should take in response to various commands.For example,when you enter a URL in your browser,this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page.Http uses port 80 to transfer its information.below the overview of HTTP protocol.
 
 ![p4.png]({{site.baseurl}}/assets/img/p4.png)
@@ -102,13 +106,15 @@ For example here simple request and response of web site with curl.curl is an op
 
 ## Versions of HTTP:
 
-### There are mainly three versions are available http/1.0,1.1 and latest http/2.
+### There are mainly three versions are available,HTTP/1.0,1.1 and latest http/2.
 
-### 1.Http/1.0: 
+### 1.HTTP/1.0: 
 In HTTP 1.0 you had to open a new connection for each request/response pair.And after each response the connection would be closed.
 
 ## example:
-Here iam doing with netcat tool.Netcat is a simple Unix utility which reads and writes data across network connections, using TCP or UDP protocol.It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts.
+Here iam doing with netcat tool.Netcat is a simple Unix utility which reads and writes data across network connections, using TCP or UDP protocol.It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts.If you want to know more about Netcat then folllow this link[https://chandrapal.me/Netcat-the-swiss-army-knife/](https://chandrapal.me/Netcat-the-swiss-army-knife/)
+
+### Syntax:
 
 nc www.google.com 80
 
@@ -121,7 +127,9 @@ Host: www.google.com
 you can abserve in above when we request with HTTP/1.0 the connection got disconnected that means again we have to do fresh request.
 
 ### 2.HTTP/1.1:
-HTTP 1.1 allows you to have persistent connections which means that you can have more than one request/response on the same HTTP connection.
+HTTP 1.1 allows you to have persistent connections which means that you can have more than one request/response on the same HTTP connection.Find below for P
+
+### Syntax:
 
 nc www.google.com 80
 
@@ -137,6 +145,5 @@ From the above when we request with HTTP/1.1 the connection still exist in the s
 This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP),referred to as HTTP version 2 (HTTP/2).HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection.It also introduces unsolicited push of representations from servers to clients.
 
 ### HTTPS:
-Short for.Hypertext Transfer Protocol Secure,HTTPS is a protocol which uses HTTP on a connection encrypted by transport-layer security.HTTPS is used to protect transmitted data from eavesdropping. It is the default protocol for conducting financial transactions on the web,and can protect a website's users from censorship by a government or an ISP.
--HTTPS uses port 443 to transfer its information.
--HTTPS is first used in HTTP/1.1 and is defined in RFC 2616.
+Short for Hypertext Transfer Protocol Secure,HTTPS is a protocol which uses HTTP on a connection encrypted by transport-layer security.HTTPS is used to protect transmitted data from eavesdropping. It is the default protocol for conducting financial transactions on the web,and can protect a website's users from censorship by a government or an ISP.HTTPS uses port 443 to transfer its information.
+
