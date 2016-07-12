@@ -2,7 +2,7 @@
 layout: post
 title: 'HTTP:Basics Part 1'
 date: 2016-07-06
-excerpt: A ton of text to test readability with image feature.
+excerpt: The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems.
 feature: 'http://www.vpnanswers.com/wp-content/uploads/2015/05/http.jpg'
 comments: true
 published: true
@@ -111,7 +111,9 @@ In HTTP 1.0 you had to open a new connection for each request/response pair.And 
 Here iam doing with netcat tool.Netcat is a simple Unix utility which reads and writes data across network connections, using TCP or UDP protocol.It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts.
 
 nc www.google.com 80
+
 GET /HTTP/1.0
+
 Host: www.google.com
 
 ![p2.png]({{site.baseurl}}/assets/img/p2.png)
@@ -122,7 +124,9 @@ you can abserve in above when we request with HTTP/1.0 the connection got discon
 HTTP 1.1 allows you to have persistent connections which means that you can have more than one request/response on the same HTTP connection.
 
 nc www.google.com 80
+
 GET /HTTP/1.1
+
 Host: www.google.com
 
 ![p3.png]({{site.baseurl}}/assets/img/p3.png)
@@ -133,6 +137,6 @@ From the above when we request with HTTP/1.1 the connection still exist in the s
 This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP),referred to as HTTP version 2 (HTTP/2).HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection.It also introduces unsolicited push of representations from servers to clients.
 
 ### HTTPS:
-Short for Hypertext Transfer Protocol Secure,HTTPS is a protocol which uses HTTP on a connection encrypted by transport-layer security.HTTPS is used to protect transmitted data from eavesdropping. It is the default protocol for conducting financial transactions on the web,and can protect a website's users from censorship by a government or an ISP.
+Short for.Hypertext Transfer Protocol Secure,HTTPS is a protocol which uses HTTP on a connection encrypted by transport-layer security.HTTPS is used to protect transmitted data from eavesdropping. It is the default protocol for conducting financial transactions on the web,and can protect a website's users from censorship by a government or an ISP.
 -HTTPS uses port 443 to transfer its information.
 -HTTPS is first used in HTTP/1.1 and is defined in RFC 2616.
