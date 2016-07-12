@@ -112,7 +112,7 @@ For example here simple request and response of web site with curl.curl is an op
 In HTTP 1.0 you had to open a new connection for each request/response pair.And after each response the connection would be closed.
 
 ## example:
-Here iam doing with netcat tool.Netcat is a simple Unix utility which reads and writes data across network connections, using TCP or UDP protocol.It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts.If you want to know more about Netcat then folllow this link[https://chandrapal.me/Netcat-the-swiss-army-knife/](https://chandrapal.me/Netcat-the-swiss-army-knife/)
+Here iam doing with netcat tool.Netcat is a simple Unix utility which reads and writes data across network connections, using TCP or UDP protocol.It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts.If you want to know more about Netcat then folllow this link [https://chandrapal.me/Netcat-the-swiss-army-knife/](https://chandrapal.me/Netcat-the-swiss-army-knife/)
 
 ### Syntax:
 
