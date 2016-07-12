@@ -8,14 +8,14 @@ feature: 'http://www.vpnanswers.com/wp-content/uploads/2015/05/http.jpg'
 comments: true
 published: true
 ---
-### Hello friends ,everyone know about HTTP right but still Iam writing this post because of if you know in detail about communication protocols,it helps while doing web application hacking or any hacking related stuff.Ok then here you go…
+### Hello friends,everyone know about HTTP right but still Iam writing this post because of if you know in detail about communication protocols,it helps while doing web application hacking or any hacking related stuff.Ok then here you go…
 
-### First,what is protocol.a protocol is a standard used to define a method of exchanging data over a computer network such as local area network,Internet,Intranet,etc.   
+### First,what is protocol.a protocol is a standard used to define a method of exchanging data over a computer network such as local area network,Internet,Intranet,etc.   
 
 ## Below are some familiar protocols listed:
 
 ### AppleTalk:
-AppleTalk is a proprietary networking protocol used with Apple Macintosh computers and networking devices to communicate with each other.
+AppleTalk is a proprietary networking protocol used with Apple Macintosh computers and networking devices to communicate with each other.
 
 ### ARP:
 Short for Address Resolution Protocol, ARP is a used with the IP for mapping a 32-bit Internet Protocol address to a MAC address that is recognized in the local network.
@@ -54,7 +54,7 @@ Short for Internet Protocol version 4, IPv4 is a network protocol defined 
 Sometimes referred to as IP next generation, IPv6 is short for Internet Protocol version 6 and is a network protocol for Internet and Ethernet network transmission IPv6 includes improvements over IPv4 such as a wider range of Internet addresses, improved routing and autoconfiguration, embeddedencryption, and more. 
 
 ### POP:
-Short for Post Office Protocol, POP or POP mailis one of the most commonly used protocols used to receive e-mail on many e-mail clients
+Short for Post Office Protocol, POP or POP mailis one of the most commonly used protocols used to receive e-mail on many e-mail clients.
 
 ### PPPoE:
 Short for Point-to-Point over Ethernet, PPPoE is defined in RFC 2516 and is commonly used with cable, DSL, etc. to connect to the Internet using the PPP and Ethernet protocols.
@@ -63,7 +63,7 @@ Short for Point-to-Point over Ethernet, PPPoE is defined in RFC 2516 and is
 Short for Point-to-Point Protocol, PPP is a communication protocol that enables a user to utilize their dial-up connection (commonly a modem) to connect to other network protocols likeTCP/IP and IPX.
 
 ### SMTP:
-Short for Simple Mail Transfer Protocol, SMTP is an Internet standard for the sending of e-mail messages over port 25. While it is mostly used for transfer from one mail server to another
+Short for Simple Mail Transfer Protocol, SMTP is an Internet standard for the sending of e-mail messages over port 25. While it is mostly used for transfer from one mail server to another.
 
 ### SNMP:
 Short for Simple Network Management Protocol,  SNMP examines and changes configuration parameters of LAN and WAN connected repeaters, bridges, routers,switches, and other devices connected to a network.
