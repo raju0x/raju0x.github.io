@@ -105,7 +105,7 @@ For example here simple request and response of web site with curl.curl is an op
 
 ## Versions of HTTP:
 
-### There are mainly three versions are available,HTTP/1.0,1.1 and latest http/2.
+### There are mainly three versions are available,HTTP/1.0,1.1 and latest HTTP/2.
 
 ### 1.HTTP/1.0: 
 In HTTP 1.0 you had to open a new connection for each request/response pair.And after each response the connection would be closed.
@@ -123,7 +123,7 @@ Host: www.google.com
 
 ![p2.png]({{site.baseurl}}/assets/img/p2.png)
 
-you can abserve in above when we request with HTTP/1.0 the connection got disconnected that means again we have to do fresh request.
+you can observe from the above when we request with HTTP/1.0 the connection got disconnected that means again we have to do fresh request.
 
 ### 2.HTTP/1.1:
 HTTP 1.1 allows you to have persistent connections which means that you can have more than one request/response on the same HTTP connection.Find below eaxample for HTTP/1.1.
@@ -145,4 +145,6 @@ This specification describes an optimized expression of the semantics of the Hyp
 
 ### HTTPS:
 Short for Hypertext Transfer Protocol Secure,HTTPS is a protocol which uses HTTP on a connection encrypted by transport-layer security.HTTPS is used to protect transmitted data from eavesdropping. It is the default protocol for conducting financial transactions on the web,and can protect a website's users from censorship by a government or an ISP.HTTPS uses port 443 to transfer its information.
+
+### This is not complete info about HTTP,you can find more about like HTTP methods,HTTP request headers,HTTP response headers,cockies in the next post.
 
