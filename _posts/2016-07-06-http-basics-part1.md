@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'HTTP:Basics Part 1'
-date: {}
+date: 2016-07-06
 excerpt: >-
   The Hypertext Transfer Protocol (HTTP) is an application protocol for
   distributed, collaborative, hypermedia information systems.
