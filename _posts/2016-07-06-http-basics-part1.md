@@ -144,7 +144,7 @@ From the above when we request with HTTP/1.1 the connection still exist in the s
 This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP),referred to as HTTP version 2 (HTTP/2).HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection.It also introduces unsolicited push of representations from servers to clients.
 
 ### HTTPS:
-Short for Hypertext Transfer Protocol Secure,HTTPS is a protocol which uses HTTP on a connection encrypted by transport-layer security.HTTPS is used to protect transmitted data from eavesdropping. It is the default protocol for conducting financial transactions on the web,and can protect a website's users from censorship by a government or an ISP.HTTPS uses port 443 to transfer its information.
+Short for Hypertext Transfer Protocol Secure,HTTPS is a protocol which uses HTTP on a connection encrypted by transport-layer security.HTTPS is used to protect transmitted data from eavesdropping.It is the default protocol for conducting financial transactions on the web,and can protect a website's users from censorship by a government or an ISP.HTTPS uses port 443 to transfer its information.
 
-### This is not complete info about HTTP,you can find more about like HTTP methods,HTTP request headers,HTTP response headers,cockies in the next post.
+### This is not complete info about HTTP,you can find more about like HTTP methods,HTTP headers,cockies in the next post.
 
