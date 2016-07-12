@@ -14,7 +14,7 @@ published: true
 ## Below are some familiar protocols listed:
 
 ### AppleTalk:
-AppleTalk is a proprietary networking protocol used with Apple Macintosh         computers and networking devices to communicate with each other.
+AppleTalk is a proprietary networking protocol used with Apple Macintosh computers and networking devices to communicate with each other.
 
 ### ARP:
 Short for Address Resolution Protocol, ARP is a used with the IP for mapping a 32-bit Internet Protocol address to a MAC address that is recognized in the local network.
@@ -91,10 +91,6 @@ Alternatively referred to as IP telephone orInternet phone,VoIP is short for�
 ### So iam not going to explain all the above protocols because our topic is http.
 
 HTTP(hyper text transport protocol)is the underlying protocol used by the World Wide Web.HTTP defines how messages are formatted and transmitted,and what actions Web servers and browsers should take in response to various commands.For example,when you enter a URL in your browser,this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page.Http uses port 80 to transfer its information.below the overview of HTTP protocol.
-
-
-![]({{site.baseurl}}/assets/img/p4.png)
-
 
 ![p4.png]({{site.baseurl}}/assets/img/p4.png)
 
