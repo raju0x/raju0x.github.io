@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'HTTP:Basics Part 1'
-date: 2016-07-06
+date: {}
 excerpt: A ton of text to test readability with image feature.
 feature: 'http://www.vpnanswers.com/wp-content/uploads/2015/05/http.jpg'
 comments: true
@@ -92,13 +92,17 @@ Alternatively referred to as IP telephone orInternet phone,VoIP is short for�
 
 HTTP(hyper text transport protocol)is the underlying protocol used by the World Wide Web.HTTP defines how messages are formatted and transmitted,and what actions Web servers and browsers should take in response to various commands.For example,when you enter a URL in your browser,this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page.Http uses port 80 to transfer its information.below the overview of HTTP protocol.
 
-![p4.png]({{site.baseurl}}/_posts/p4.png)
+
+![]({{site.baseurl}}/assets/img/p4.png)
+
+
+![p4.png]({{site.baseurl}}/assets/img/p4.png)
 
 For example here simple request and response of web site with curl.curl is an open source command line tool and library for transferring data with URL syntax.
 
 ### Syntax: curl –v openhackz.in 80
 
-![p1.png]({{site.baseurl}}/_posts/p1.png)
+![p1.png]({{site.baseurl}}/assets/img/p1.png)
 
 ## Versions of HTTP:
 
@@ -110,22 +114,22 @@ In HTTP 1.0 you had to open a new connection for each request/response pair.And 
 ## example:
 Here iam doing with netcat tool.Netcat is a simple Unix utility which reads and writes data across network connections, using TCP or UDP protocol.It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts.
 
-### nc www.google.com 80
-### GET /HTTP/1.0
-### Host: www.google.com
+nc www.google.com 80
+GET /HTTP/1.0
+Host: www.google.com
 
-![p2.png]({{site.baseurl}}/_posts/p2.png)
+![p2.png]({{site.baseurl}}/assets/img/p2.png)
 
 you can abserve in above when we request with HTTP/1.0 the connection got disconnected that means again we have to do fresh request.
 
 ### 2.HTTP/1.1:
 HTTP 1.1 allows you to have persistent connections which means that you can have more than one request/response on the same HTTP connection.
 
-### nc www.google.com 80
-### GET /HTTP/1.1
-### Host: www.google.com
+nc www.google.com 80
+GET /HTTP/1.1
+Host: www.google.com
 
-![p3.png]({{site.baseurl}}/_posts/p3.png)
+![p3.png]({{site.baseurl}}/assets/img/p3.png)
 
 From the above when we request with HTTP/1.1 the connection still exist in the same connection.
 
@@ -136,7 +140,3 @@ This specification describes an optimized expression of the semantics of the Hyp
 Short for Hypertext Transfer Protocol Secure,HTTPS is a protocol which uses HTTP on a connection encrypted by transport-layer security.HTTPS is used to protect transmitted data from eavesdropping. It is the default protocol for conducting financial transactions on the web,and can protect a website's users from censorship by a government or an ISP.
 -HTTPS uses port 443 to transfer its information.
 -HTTPS is first used in HTTP/1.1 and is defined in RFC 2616.
-
-
-
-
