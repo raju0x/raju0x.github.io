@@ -3,8 +3,7 @@ layout: post
 title: 'HTTP:Basics Part 1'
 date: 2016-07-06
 excerpt: >-
-  The Hypertext Transfer Protocol (HTTP) is an application protocol for
-  distributed, collaborative, hypermedia information systems.
+  The HTTP is the set of rules for transferring files on the World Wide Web.
 feature: 'http://www.vpnanswers.com/wp-content/uploads/2015/05/http.jpg'
 comments: true
 published: true
@@ -127,7 +126,7 @@ Host: www.google.com
 you can abserve in above when we request with HTTP/1.0 the connection got disconnected that means again we have to do fresh request.
 
 ### 2.HTTP/1.1:
-HTTP 1.1 allows you to have persistent connections which means that you can have more than one request/response on the same HTTP connection.Find below for P
+HTTP 1.1 allows you to have persistent connections which means that you can have more than one request/response on the same HTTP connection.Find below eaxample for HTTP/1.1.
 
 ### Syntax:
 
