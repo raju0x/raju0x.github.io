@@ -8,11 +8,11 @@ feature: 'http://www.vpnanswers.com/wp-content/uploads/2015/05/http.jpg'
 comments: true
 published: true
 ---
-### Hello friends,everyone know about HTTP right but still Iam writing this post because of if you know in detail about communication protocols, it helps while doing web application hacking or any hacking related stuff. Ok then here you go…
+### Hello friends, everyone know about HTTP right but still Iam writing this post because of if you know in detail about communication protocols, it helps while doing web application hacking or any hacking related stuff. Ok then here you go…
 
-First,what is protocol.a protocol is a standard used to define a method of exchanging data over a computer network such as local area network, Internet, Intranet,etc.   
+First, what is protocol. a protocol is a standard used to define a method of exchanging data over a computer network such as local area network, Internet, Intranet,etc.   
 
-In the standard model known as Open Systems Interconnection (OSI),there are one or more protocols at each layer in the communication exchange.OSI is a network model developed by ISO in1978 where peer-to-peer communications are divided into seven layers.Each layer performs a specific task.
+In the standard model known as Open Systems Interconnection (OSI), there are one or more protocols at each layer in the communication exchange. OSI is a network model developed by ISO in1978 where peer-to-peer communications are divided into seven layers. Each layer performs a specific task.
 
 ![p5.png]({{site.baseurl}}/assets/img/p5.png)
 
@@ -20,7 +20,7 @@ In the standard model known as Open Systems Interconnection (OSI),there are one 
 
 Responsible for transmitting row bit stream over the physical cable. Below are some protocols which belongs to physical layer.
 
-### Eternet physical layer :
+### Ethernet physical layer :
 
 The Ethernet physical layer is the physical layer component of the Ethernet family of computer network standards.
 
@@ -36,11 +36,11 @@ short for Universal Serial Bus, is an industry standard developed in the mid-199
 
 Also known as the link layer is responsible for transmitting data across a link.
 
-## Ethernet : 
+### Ethernet : 
 
 Ethernet is a widely used local-area network (LAN)protocol,Ethernet is a fast and reliable network solution that is still widely used today.
 
-## Token ring : 
+### Token ring : 
 
 Token ring a protocol developed by IBM; the name can also be used to describe the token passing ring logical topology that it popularized.
 
@@ -112,7 +112,7 @@ Short for User Datagram Protocol and defined in RFC 768, UDP is an alternative p
 
 ## 5-Session layer :
 
-responsible for managing a session between two applications.
+Responsible for managing a session between two applications.
 
 ### Socks : 
 
@@ -120,7 +120,7 @@ Socks is a protocol for handling client to server requests and communications ma
 
 ## 6-Presentation layer :
 
-responsible for the data formatting and display, allowing for compatibility.
+Responsible for the data formatting and display, allowing for compatibility.
 
 ### TLS :
 
@@ -128,15 +128,15 @@ Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), 
 
 ## 7-Application layer :
 
-responsible for user interaction. An example of an OSI application is the
+Responsible for user interaction. Below are the appliction layer protocols.
 
-### BGP: 
+### BGP : 
 
 Short for Border Gateway Protocol, BGP is a network protocol operating on port 179 for exchanging routing information between gateway hosts.
 
 ### DHCP : 
 
-Short for Dynamic Host Configuration Protocol,DHCP is a protocol used to assign an IP address to a computer or device that has been connected to anetwork automatically.
+Short for Dynamic Host Configuration Protocol, DHCP is a protocol used to assign an IP address to a computer or device that has been connected to anetwork automatically.
 
 ### FTP : 
 
@@ -154,7 +154,7 @@ Short for Internet Message Access Protocol, It is a protocol for retrieving e-ma
 
 Short for Post Office Protocol, POP or POP mailis one of the most commonly used protocols used to receive e-mail on many e-mail clients.
 
-### PPPoE: 
+### PPPoE : 
 
 Short for Point-to-Point over Ethernet, PPPoE is defined in RFC 2516 and is commonly used with cable, DSL, etc. to connect to the Internet using the PPP and Ethernet protocols.
 
@@ -186,7 +186,7 @@ Short for Trivial File Transfer Protocol, TFTP is simple file transfer protocol 
 
 ## HTTP :
 
-HTTP(hyper text transport protocol)is the underlying protocol used by the World Wide Web.HTTP defines how messages are formatted and transmitted,and what actions Web servers and browsers should take in response to various commands.For example,when you enter a URL in your browser,this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page.Http uses port 80 to transfer its information.below the overview of HTTP protocol.
+HTTP(hyper text transport protocol)is the underlying protocol used by the World Wide Web. HTTP defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands. For example, when you enter a URL in your browser, this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page.Http uses port 80 to transfer its information. Below the overview of HTTP protocol.
 
 ![p4.png]({{site.baseurl}}/assets/img/p4.png)
 
@@ -204,7 +204,7 @@ For example here simple request and response of web site with curl. curl is an o
 
 In HTTP 1.0 you had to open a new connection for each request/response pair. And after each response the connection would be closed.
 
-### example :
+### Example :
 Here iam doing with netcat tool. Netcat is a simple Unix utility which reads and writes data across network connections, using TCP or UDP protocol. It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts. If you want to know more about Netcat then folllow this link [https://chandrapal.me/Netcat-the-swiss-army-knife/](https://chandrapal.me/Netcat-the-swiss-army-knife/)
 
 ### Syntax :
@@ -215,7 +215,7 @@ GET /HTTP/1.0
 
 Host: www.example.com
 
-When ever we request for the resources with particular HTTP version it may or may not gives the content. In my case the  target given the content with 200 status code.
+When ever we request for the resources with particular HTTP version it may or may not gives the content. In my case the target given the content with 200 status code.
 
 ![np2.png]({{site.baseurl}}/assets/img/np2.png)
 
@@ -244,7 +244,7 @@ From the above when we request with HTTP/1.1 the connection still exist in the s
 This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP), referred to as HTTP version 2(HTTP/2). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients.
 
 ### HTTPS :
-Short for Hypertext Transfer Protocol Secure,HTTPS is a protocol which uses HTTP on a connection encrypted by transport-layer security.HTTPS is used to protect transmitted data from eavesdropping.It is the default protocol for conducting financial transactions on the web,and can protect a website's users from censorship by a government or an ISP.HTTPS uses port 443 to transfer its information.
+Short for Hypertext Transfer Protocol Secure, HTTPS is a protocol which uses HTTP on a connection encrypted by transport-layer security. HTTPS is used to protect transmitted data from eavesdropping. It is the default protocol for conducting financial transactions on the web, and can protect a website's users from censorship by a government or an ISP. HTTPS uses port 443 to transfer its information.
 
 ### This is not complete info about HTTP, you can find more about like HTTP methods, HTTP headers, cookies in the next post.
 
