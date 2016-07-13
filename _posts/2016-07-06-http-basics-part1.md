@@ -3,24 +3,24 @@ layout: post
 title: 'HTTP:Basics Part 1'
 date: 2016-07-06
 excerpt: >-
-  The HTTP is the set of rules for transferring files on the World Wide Web.
+  Short for Hyper Text Transport Protocol.If you want to know more other than acronym then Read More !!
 feature: 'http://www.vpnanswers.com/wp-content/uploads/2015/05/http.jpg'
 comments: true
 published: true
 ---
 ### Hello friends,everyone know about HTTP right but still Iam writing this post because of if you know in detail about communication protocols,it helps while doing web application hacking or any hacking related stuff.Ok then here you go…
 
-### First,what is protocol.a protocol is a standard used to define a method of exchanging data over a computer network such as local area network,Internet,Intranet,etc.   
+First,what is protocol.a protocol is a standard used to define a method of exchanging data over a computer network such as local area network,Internet,Intranet,etc.   
 
 In the standard model known as Open Systems Interconnection (OSI),there are one or more protocols at each layer in the communication exchange.OSI is a network model developed by ISO in1978 where peer-to-peer communications are divided into seven layers.Each layer performs a specific task.
 
 ![p5.png]({{site.baseurl}}/assets/img/p5.png)
 
-## 1-Physical layer: 
+## 1-Physical layer : 
 
 Responsible for transmitting row bit stream over the physical cable.Below are some protocols which belongs to physical layer.
 
-### Eternet physical layer:
+### Eternet physical layer :
 
 The Ethernet physical layer is the physical layer component of the Ethernet family of computer network standards.
 
@@ -28,53 +28,81 @@ The Ethernet physical layer is the physical layer component of the Ethernet fami
 
 Bluetooth is a wireless technology standard for exchanging data over short distances
 
-### USB: 
+### USB : 
 
-short for Universal Serial Bus, is an industry standard developed in the mid-1990s that defines the cables, connectors and communications protocols used in a bus for connection, communication, and power supply between computers and electronic devices.
+short for Universal Serial Bus, is an industry standard developed in the mid-1990s that defines the cables,connectors and communications protocols used in a bus for connection,communication,and power supply between computers and electronic devices.
 
-## 2-Data link layer:
+## 2-Data link layer :
 
-(also known as the link layer) - responsible for transmitting data across a link.
+Also known as the link layer is responsible for transmitting data across a link.
 
 Ethernet: Ethernet is a widely used local-area network (LAN)protocol,Ethernet is a fast and reliable network solution that is still widely used today.
 Token ring: a protocol developed by IBM; the name can also be used to describe the token passing ring logical topology that it popularized.
 
-## 3-Network layer:
+## 3-Network layer :
 
-responsible for routing information through the network and allowing systems to communicate.the protocols that work in this is layer are:
+Responsible for routing information through the network and allowing systems to communicate.The protocols that work in this is layer are:
 
-Routed Protocols:
-	Routed protocols used to carry user data between hosts.
+### Routed Protocols :
 
-AppleTalk: AppleTalk is a proprietary networking protocol used with Apple Macintosh         computers and networking devices to communicate with each other.
+Routed protocols used to carry user data between hosts.Below some routed protocols listed.
 
-IP: Short for Internet Protocol address, an IP or IP address is a number used to indicate the location of a computer or other device on a network using TCP/IP.
+### AppleTalk : 
 
-IPv4: Short for Internet Protocol version 4, IPv4 is a network protocol defined in RFC791 that is the primary Internet and Ethernet network transmission.
+AppleTalk is a proprietary networking protocol used with Apple Macintosh computers and networking devices to communicate with each other.
 
-IPv6: Sometimes referred to as IP next generation, IPv6 is short for Internet Protocol version 6 and is a network protocol for Internet and Ethernet network transmission IPv6 includes improvements over IPv4 such as a wider range of Internet addresses, improved routing and autoconfiguration, embedded  encryption, and more. 
+### IP : 
 
-IPsec: Short for IP Security, IPsec is a set of protocols developed by the Internet Engineering Task Force to support the secure exchange of packets at the IP layer.
+Short for Internet Protocol address,an IP or IP address is a number used to indicate the location of a computer or other device on a network using TCP/IP.
 
-ICMP: Short for Internet Control Message Protocol, ICMP is an extension to the Internet Protocol defined by RFC 792 and an error reporting protocol for TCP/IPmessages. Most users are familiar with ICMP from using the Ping command.
+### IPv4 : 
 
-ARP: Short for Address Resolution Protocol, ARP is a used with the IP for mapping a 32-bit Internet Protocol address to a MAC address that is recognized in the local network.
+Short for Internet Protocol version 4,IPv4 is a network protocol defined in RFC791 that is the primary Internet and Ethernet network transmission.
 
-Routing Protocols:
- 	Routing protocols performs path determination (routing).
+### IPv6 : 
 
-RIP: The Routing Information Protocol (RIP) defines a way for routers, which connect networks using the Internet Protocol (IP), to share information about how to route traffic among networks.
+Sometimes referred to as IP next generation,IPv6 is short for Internet Protocol version 6 and is a network protocol for Internet and Ethernet network transmission IPv6 includes improvements over IPv4 such as a wider range of Internet addresses,improved routing and autoconfiguration,embedded encryption,and more. 
 
-OSPF: Routers connect networks using the Internet Protocol (IP), and OSPF (Open Shortest Path First) is a router protocol used to find the best path for packets as they pass through a set of connected networks.
+### IPsec : 
 
-EIGRP: EIGRP (Enhanced Interior Gateway Routing Protocol) is a network protocol that letsrouters exchange information more efficiently than with earlier network protocols. 
+Short for IP Security,IPsec is a set of protocols developed by the Internet Engineering Task Force to support the secure exchange of packets at the IP layer.
+
+### ICMP : 
+
+Short for Internet Control Message Protocol,ICMP is an extension to the Internet Protocol defined by RFC 792 and an error reporting protocol for TCP/IPmessages.Most users are familiar with ICMP from using the Ping command.
+
+### ARP : 
+
+Short for Address Resolution Protocol,ARP is a used with the IP for mapping a 32-bit Internet Protocol address to a MAC address that is recognized in the local network.
+
+### Routing Protocols :
+ 	
+Routing protocols performs path determination (routing).
+
+### Some routing protocols are :
+
+### RIP : 
+
+The Routing Information Protocol (RIP) defines a way for routers,which connect networks using the Internet Protocol (IP),to share information about how to route traffic among networks.
+
+### OSPF : 
+
+Routers connect networks using the Internet Protocol (IP),and OSPF(Open Shortest Path First)is a router protocol used to find the best path for packets as they pass through a set of connected networks.
+
+### EIGRP : 
+
+EIGRP (Enhanced Interior Gateway Routing Protocol) is a network protocol that letsrouters exchange information more efficiently than with earlier network protocols. 
 
 ## 4-Transport layer:
 
-responsible for transferring information between endpoints on the network and deals with errors such as lost or duplicate packets.
+Responsible for transferring information between endpoints on the network and deals with errors such as lost or duplicate packets.Find below layer 4 protocols.
 
-TCP/IP: Short for Transmission Control Protocol/Internet Protocol, TCP/IP is a set of rules (protocols) governing communications among all computers on the Internet. More specifically, TCP/IP dictates how information should be packaged (turned into bundles of information called packets), sent, and received, as well as how to get to its destination.
-UDP: Short for User Datagram Protocol and defined in RFC 768, UDP is an alternative protocol to the TCP/IP that runs on top of IP and is sometimes referred to as UDP/IP. Unlike TCP/IP, UDP does not divide each transmission into packets, which allows for a faster transmission. However,UDP does not provide error checking
+### TCP/IP : 
+
+Short for Transmission Control Protocol/Internet Protocol,TCP/IP is a set of rules (protocols) governing communications among all computers on the Internet. More specifically,TCP/IP dictates how information should be packaged (turned into bundles of information called packets),sent,and received,as well as how to get to its destination.
+
+### UDP : 
+Short for User Datagram Protocol and defined in RFC 768, UDP is an alternative protocol to the TCP/IP that runs on top of IP and is sometimes referred to as UDP/IP.Unlike TCP/IP, UDP does not divide each transmission into packets, which allows for a faster transmission.However,UDP does not provide error checking.
 
 ## 5-Session layer:
 
