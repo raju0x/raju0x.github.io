@@ -20,7 +20,7 @@ In the standard model known as Open Systems Interconnection (OSI), there are one
 
 Responsible for transmitting row bit stream over the physical cable. Below are some protocols which belongs to physical layer.
 
-**** Ethernet physical layer : The Ethernet physical layer is the physical layer component of the Ethernet family of computer network standards.
+****Ethernet physical layer : The Ethernet physical layer is the physical layer component of the Ethernet family of computer network standards.
 
 ### Bluetooth : 
 
