@@ -10,6 +10,10 @@ tiled_bg:           false   # Set this true if you want to tile your background 
 locale:             en_US
 url:                https://openhackz.in
 
+thought:
+  text: I have no special talent. I am only passionately curious.
+  author: Albert Einstein
+
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
