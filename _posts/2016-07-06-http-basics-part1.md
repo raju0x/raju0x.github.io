@@ -6,7 +6,7 @@ excerpt: >-
   Short for Hyper Text Transport Protocol. If you want to know more other than acronym then Read More !!
 feature: 'http://www.vpnanswers.com/wp-content/uploads/2015/05/http.jpg'
 comments: true
-published: true
+published: false
 ---
 ### Hello friends, everyone know about HTTP right but still Iam writing this post because of if you know in detail about communication protocols, it helps while doing web application hacking or any hacking related stuff. Ok then here you go…
 
