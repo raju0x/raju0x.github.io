@@ -40,20 +40,13 @@ layout: compress
         </div>
         {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
     </header>
-    <footer class="post-footer">
-    {% if site.author %}
-    <section class="author">
-      <h4>{{ site.author.name }}</h4>
-      <p>{{ site.author.bio }}</p>
-    </section>
-    {% endif %}
-    </footer>
-
     {% include scripts.html %}
     {% if site.mathjax == true %}
     <!-- MathJax -->
     <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     {% endif %}
+    <footer class="post-footer">
+    </footer>
 </body>
 </html>
 
