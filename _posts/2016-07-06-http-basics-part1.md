@@ -8,11 +8,8 @@ feature: 'http://www.vpnanswers.com/wp-content/uploads/2015/05/http.jpg'
 comments: true
 published: true
 ---
-<<<<<<< HEAD
+
 ### Hello friends,everyone know about HTTP right but still Iam writing this post because of if you good at basics it helps to understand further security issues.Ok then here you go…
-=======
-### Hello friends, everyone know about HTTP right but still Iam writing this post because of if you know in detail about communication protocols, it helps while doing web application hacking or any hacking related stuff. Ok then here you go…
->>>>>>> origin/master
 
 First, what is **protocol**. a protocol is a standard used to define a method of exchanging data over a computer network such as local area network, Internet, Intranet,etc.   
 
