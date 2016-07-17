@@ -175,7 +175,7 @@ From the above when we request with HTTP/1.1 the connection still exist in the s
 
 **Note :** If you want disconnect from one request in HTTP/1.1 then mention **Connection : close**
 
-**Syntax :**
+### Syntax :
 
 **nc www.example.com 80**
 
