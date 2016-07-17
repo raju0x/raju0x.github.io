@@ -19,7 +19,7 @@ In the standard model known as Open Systems Interconnection (OSI), there are one
 
 ## 1-Physical layer : 
 
-Responsible for transmitting row bit stream over the physical cable. Below are some protocols which belongs to physical layer.
+**Responsible for transmitting row bit stream over the physical cable. Below are some protocols which belongs to physical layer.**
 
 **Ethernet physical layer :** The Ethernet physical layer is the physical layer component of the Ethernet family of computer network standards.
 
@@ -29,7 +29,7 @@ Responsible for transmitting row bit stream over the physical cable. Below are s
 
 ## 2-Data link layer :
 
-Also known as the link layer is responsible for transmitting data across a link.
+**Also known as the link layer is responsible for transmitting data across a link. Some protocols which comes under link layer are:**
 
 **Ethernet :** Ethernet is a widely used local-area network (LAN)protocol,Ethernet is a fast and reliable network solution that is still widely used today.
 
@@ -37,7 +37,7 @@ Also known as the link layer is responsible for transmitting data across a link.
 
 ## 3-Network layer :
 
-Responsible for routing information through the network and allowing systems to communicate. The protocols that work in this is layer are :
+**Responsible for routing information through the network and allowing systems to communicate. The protocols that work in this is layer are :**
 
 **Routed Protocols :** Routed protocols used to carry user data between hosts. Below some routed protocols listed.
 
@@ -65,7 +65,7 @@ Responsible for routing information through the network and allowing systems to 
 
 ## 4-Transport layer:
 
-Responsible for transferring information between endpoints on the network and deals with errors such as lost or duplicate packets. Find below layer 4 protocols.
+**Responsible for transferring information between endpoints on the network and deals with errors such as lost or duplicate packets. Find below layer 4 protocols.**
 
 **TCP/IP :** Short for Transmission Control Protocol/Internet Protocol, TCP/IP is a set of rules (protocols) governing communications among all computers on the Internet. More specifically,TCP/IP dictates how information should be packaged (turned into bundles of information called packets), sent, and received, as well as how to get to its destination.
 
@@ -73,19 +73,19 @@ Responsible for transferring information between endpoints on the network and de
 
 ## 5-Session layer :
 
-Responsible for managing a session between two applications.
+**Responsible for managing a session between two applications . Socks work with session layer.**
 
 **Socks :** Socks is a protocol for handling client to server requests and communications made through a proxy server. Server Message Block (SMB), one version of which was also known as Common Internet File System (CIFS) operates as an application-layer network protocol  mainly used for providing shared access to files, printers, and serial ports and miscellaneous communications between nodes on a network.
 
 ## 6-Presentation layer :
 
-Responsible for the data formatting and display, allowing for compatibility.
+**Responsible for the data formatting and display, allowing for compatibility.** 
 
 **TLS :** Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), both of which are frequently referred to as 'SSL', are cryptographic protocols that provide communications security over a computer network. Several versions of the protocols are in widespread use in applications such as web browsing, email, Internet faxing, instant messaging, and voice-over-IP(VoIP). Major web sites use TLS to secure all communications between their servers and web browsers.
 
 ## 7-Application layer :
 
-Responsible for user interaction. Below are the appliction layer protocols.
+**Responsible for user interaction. Below are the appliction layer protocols.**
 
 **BGP :** Short for Border Gateway Protocol, BGP is a network protocol operating on port 179 for exchanging routing information between gateway hosts.
 
@@ -144,7 +144,7 @@ Here iam doing with **Netcat** tool. Netcat is a simple Unix utility which reads
 
 **GET /HTTP/1.0**
 
-**Host: www.example.com**
+**HOST: www.example.com**
 
 When ever we request for the resources with particular HTTP version it may or may not gives the content. In my case the target given the content with 200 status code.
 
@@ -176,9 +176,13 @@ From the above when we request with HTTP/1.1 the connection still exist in the s
 **Note :** If you want disconnect from one request in HTTP/1.1 then mention **Connection : close**
 
 **Syntax :**
+
 **nc www.example.com 80**
+
 **GET / HTTP/1.1**
+
 **HOST: www.example.com
+
 **Connection : close**
 
 After this execution it disconnects from the server same as HTTP/1.0.
