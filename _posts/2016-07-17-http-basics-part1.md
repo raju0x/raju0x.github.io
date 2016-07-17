@@ -181,7 +181,7 @@ From the above when we request with HTTP/1.1 the connection still exist in the s
 
 **GET / HTTP/1.1**
 
-**HOST: www.example.com
+**HOST: www.example.com**
 
 **Connection : close**
 
