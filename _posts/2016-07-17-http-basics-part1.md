@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'HTTP:Basics Part 1'
-date: 2016-07-06
+date: 2016-07-17
 excerpt: >-
   Short for Hyper Text Transport Protocol. If you want to know more other than acronym then Read More !!
 feature: 'http://www.vpnanswers.com/wp-content/uploads/2015/05/http.jpg'
@@ -161,15 +161,33 @@ HTTP 1.1 allows you to have persistent connections which means that you can have
 
 **nc www.example.com 80**
 
-**GET /HTTP/1.1**
+**GET / HTTP/1.1**
 
-**Host: www.example.com**
+**HOST: www.example.com**
+
+After this execution we fetch the requested resources. But relies on the same TCP connection(it won't disconnects from server) then we make another multiple requests.
 
 ![np3.png]({{site.baseurl}}/assets/img/np3.png)
 
 ![np3-3.png]({{site.baseurl}}/assets/img/np3-3.png)
 
 From the above when we request with HTTP/1.1 the connection still exist in the same HTTP connection.
+
+**Note :** If you want disconnect from one request in HTTP/1.1 then mention **Connection : close**
+
+**Syntax :**
+**nc www.example.com 80**
+**GET / HTTP/1.1**
+**HOST: www.example.com
+**Connection : close**
+
+After this execution it disconnects from the server same as HTTP/1.0.
+
+![np4.png]({{site.baseurl}}/assets/img/np4.png)
+
+![np4-4.png]({{site.baseurl}}/assets/img/np4-4.png)
+
+Observe above it disconneted from server
 
 **3.HTTP/2 :**
 This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP), referred to as HTTP version 2(HTTP/2). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients.
